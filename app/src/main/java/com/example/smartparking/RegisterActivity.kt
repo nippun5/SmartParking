@@ -50,6 +50,7 @@ class RegisterActivity : AppCompatActivity() {
                         Toast.makeText(this@RegisterActivity, "User Created", Toast.LENGTH_SHORT)
                             .show()
                         startActivity(Intent(applicationContext, DashboardActivity::class.java))
+                        finish()
                         binding.progressBar.visibility = View.GONE
                     } else {
                         Toast.makeText(
