@@ -1,17 +1,12 @@
-package com.example.smartparking
+package com.example.smartparking.ui
 
 
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
-import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.navigation.Navigation
 import androidx.navigation.ui.NavigationUI
+import com.example.smartparking.R
 import com.example.smartparking.databinding.ActivityDashboardBinding
-import com.example.smartparking.fragments.HomeFragment
-import com.google.android.gms.maps.MapFragment
-
-
 
 
 class DashboardActivity : FragmentActivity() {

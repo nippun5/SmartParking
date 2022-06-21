@@ -1,4 +1,4 @@
-package com.example.smartparking
+package com.example.smartparking.ui
 
 
 import android.content.Intent

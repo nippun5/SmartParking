@@ -1,9 +1,8 @@
-package com.example.smartparking
+package com.example.smartparking.ui
 
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.smartparking.databinding.ActivityLoginBinding
 import com.google.firebase.auth.FirebaseAuth
@@ -21,7 +20,7 @@ class LoginActivity : AppCompatActivity() {
         Log.d("Tag", "firebase " + firebaseAuth)
         binding.btnLogin.setOnClickListener {
 
-            startActivity(Intent(this,DashboardActivity::class.java))
+            startActivity(Intent(this, DashboardActivity::class.java))
 //            val email = binding.email.text.toString().trim()
 //            val pass = binding.password.text.toString().trim()
 //
