@@ -18,7 +18,7 @@
         tools:targetApi="31">
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="Key should be copied here which you generated in step 1"/>
+            android:value="AIzaSyAs0419ev67oh8rBVclJ4g8WZBGtAIx15A"/>
         <activity
             android:name=".ui.DashboardActivity"
             android:exported="false" />

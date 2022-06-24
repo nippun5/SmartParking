@@ -18,5 +18,7 @@ class DashboardActivity : FragmentActivity() {
         setContentView(binding.root)
         val navController = Navigation.findNavController(this, R.id.nav_host_fragment)
         NavigationUI.setupWithNavController(binding.bottomNavigationView, navController)
+
+        binding.bottomNavigationView.background = null
     }
 }
