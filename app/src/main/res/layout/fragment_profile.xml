@@ -30,11 +30,13 @@
                         android:textStyle="bold"
                         android:textColor="@color/white"/>
                     <ImageView
+                        android:id="@+id/btn_back"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="150dp"
                         android:src="@drawable/ic_baseline_arrow_back_24"
-                        android:layout_gravity="left"/>
+                        android:layout_gravity="left"
+                        app:tint="@color/white" />
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -160,12 +162,13 @@
                 </com.google.android.material.card.MaterialCardView>
 
                 <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/materialCardView7"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="26dp"
+                    android:layout_marginTop="14dp"
                     android:layout_marginEnd="26dp"
                     android:elevation="4dp"
-                    android:layout_marginTop="14dp"
                     app:cardCornerRadius="10dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -191,13 +194,31 @@
                             android:id="@+id/tv_contactn"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_marginStart="18dp"
                             android:text="nippun@gmail.com"
                             android:textColor="@color/black"
-                            android:layout_marginStart="18dp"
                             app:layout_constraintStart_toEndOf="@+id/textView6"
                             app:layout_constraintTop_toTopOf="parent" />
                     </androidx.constraintlayout.widget.ConstraintLayout>
                 </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_logout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#E1346F"
+                    android:text="Logout"
+                    android:focusable="true"
+                    app:iconGravity="end"
+                    android:clickable="true"
+                    app:icon="@drawable/ic_baseline_login_24"
+                    android:textAllCaps="false"
+                    android:layout_marginTop="24dp"
+                    android:textColor="@color/white"
+                    app:cornerRadius="5dp"
+                    app:layout_constraintEnd_toEndOf="@+id/materialCardView7"
+                    app:layout_constraintStart_toStartOf="@+id/materialCardView7"
+                    app:layout_constraintTop_toBottomOf="@+id/materialCardView7" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
         </androidx.core.widget.NestedScrollView>

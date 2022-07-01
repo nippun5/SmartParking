@@ -8,6 +8,7 @@
         <entry key="app/src/main/res/drawable/bgcard.xml" value="0.1085" />
         <entry key="app/src/main/res/drawable/button_secondary_bg.xml" value="0.1085" />
         <entry key="app/src/main/res/drawable/editext.xml" value="0.1085" />
+        <entry key="app/src/main/res/drawable/ic_baseline_qr_code_scanner_24.xml" value="0.1335" />
         <entry key="app/src/main/res/drawable/ic_email.xml" value="0.1085" />
         <entry key="app/src/main/res/drawable/ic_history_foreground.xml" value="0.185" />
         <entry key="app/src/main/res/drawable/ic_home_foreground.xml" value="0.1725" />
@@ -19,11 +20,14 @@
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.2" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1765625" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/collapsable_toolbar.xml" value="0.1765625" />
+        <entry key="app/src/main/res/layout/custom_toast.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_history.xml" value="0.16" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.14" />
-        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.16" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_scanner.xml" value="0.18" />
         <entry key="app/src/main/res/layout/list_layout.xml" value="0.25" />
-        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.22" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_history.xml" value="0.151" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_history_round.xml" value="0.1365" />
       </map>
