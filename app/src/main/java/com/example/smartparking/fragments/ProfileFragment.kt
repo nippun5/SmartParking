@@ -21,6 +21,7 @@ class ProfileFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        binding
         firebaseAuth = FirebaseAuth.getInstance()
         binding = FragmentProfileBinding.inflate(inflater, container, false)
         binding!!.btnBack.setOnClickListener {
