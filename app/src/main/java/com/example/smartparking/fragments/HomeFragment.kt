@@ -25,6 +25,7 @@ import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.Marker
 import com.google.android.gms.maps.model.MarkerOptions
+import com.google.android.material.bottomsheet.BottomSheetDialog
 
 
 class HomeFragment : Fragment(),OnMapReadyCallback {
@@ -49,7 +50,6 @@ class HomeFragment : Fragment(),OnMapReadyCallback {
         mFusedLocationClient = LocationServices.getFusedLocationProviderClient(requireActivity())
 
         getLastLocation()
-
 
 
 
@@ -198,6 +198,10 @@ class HomeFragment : Fragment(),OnMapReadyCallback {
         googleMap.setOnMarkerClickListener(object : GoogleMap.OnMarkerClickListener{
             override fun onMarkerClick(p0: Marker): Boolean {
 
+
+                val dialog = BottomSheetDialog(requireActivity())
+                dialog.setContentView(R.layout.bottomsheet_basic)
+                dialog.show()
                 return true
             }
 
