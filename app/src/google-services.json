@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:552534420513:android:5692e85c24b7f1c2778760",
         "android_client_info": {
-          "package_name": "com.example.smartparking"
+          "package_name": "com.smartparking.mobile"
         }
       },
       "oauth_client": [

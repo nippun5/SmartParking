@@ -11,7 +11,7 @@ android {
         dataBinding = true
     }
     defaultConfig {
-        applicationId "com.example.smartparking"
+        applicationId "com.smartparking.mobile"
         minSdk 21
         targetSdk 32
         versionCode 1
