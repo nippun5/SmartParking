@@ -28,7 +28,7 @@ class RecyclerAdapter(private val context:Context, private val arrayList: ArrayL
 inner class ViewHolder(itemView: View):RecyclerView.ViewHolder(itemView){
      var itemTitle: TextView
     init {
-        itemTitle = itemView.findViewById(R.id.textView5)
+        itemTitle = itemView.findViewById(R.id.parkingName)
         itemView.setOnClickListener{
             Toast.makeText(itemView.context, "Item Clicked", Toast.LENGTH_SHORT).show()
         }

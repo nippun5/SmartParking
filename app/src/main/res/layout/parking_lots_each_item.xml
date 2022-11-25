@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/parkingImage"
+        android:layout_width="98dp"
+        android:layout_height="98dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/rectangle63"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/parkingName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jost_variable_fontwght"
+        android:text="Allington Paddock"
+        android:textColor="@color/black"
+        android:layout_marginTop="8dp"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/parkingImage"
+        app:layout_constraintStart_toStartOf="@+id/parkingImage"
+        app:layout_constraintTop_toBottomOf="@+id/parkingImage" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textStyle="italic"
+        android:fontFamily="@font/jost_variable_fontwght"
+
+        android:textSize="13sp"
+        android:text="7518 Washington Alley"
+        app:layout_constraintStart_toStartOf="@+id/parkingName"
+        app:layout_constraintTop_toBottomOf="@+id/parkingName" />
+
+    <TextView
+        android:id="@+id/tv_totalSpots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jost_variable_fontwght"
+
+        android:text="Total Spots: "
+        android:textSize="10sp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="@+id/parkingName"
+        app:layout_constraintTop_toBottomOf="@+id/location" />
+
+    <TextView
+        android:id="@+id/totalSpots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textSize="12sp"
+
+        android:layout_marginStart="8dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/tv_totalSpots"
+        app:layout_constraintTop_toBottomOf="@+id/location" />
+
+    <TextView
+        android:id="@+id/tv_availableSpots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Available Spots: "
+        android:fontFamily="@font/jost_variable_fontwght"
+
+        android:textSize="10sp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="@+id/parkingName"
+        app:layout_constraintTop_toBottomOf="@+id/tv_totalSpots" />
+
+    <TextView
+        android:id="@+id/availableSpots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+
+        app:layout_constraintStart_toEndOf="@id/tv_availableSpots"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_totalSpots"
+        tools:layout_editor_absoluteX="27dp" />
+
+    <TextView
+        android:id="@+id/tv_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/jost_variable_fontwght"
+        android:text="Rs. "
+        android:textColor="@color/primary_text_pink"
+        android:textSize="10sp"
+        android:layout_marginBottom="8dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tv_availableSpots"
+        app:layout_constraintTop_toBottomOf="@+id/tv_availableSpots" />
+
+    <TextView
+        android:id="@+id/rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:fontFamily="@font/jost_variable_fontwght"
+        android:text="100"
+        android:textColor="@color/primary_text_pink"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/tv_rate"
+        app:layout_constraintTop_toTopOf="@+id/tv_rate" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
